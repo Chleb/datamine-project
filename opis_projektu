@@ -1,0 +1,11 @@
+Temat projektu: “System rekomendujący filmów na podstawie bazy MovieLens”
+
+Plan działań:
+1) Będziemy stosować metodę hybrydową łaczącą collaborative filtering i content-based model.
+2) Na początku mamy zamiar podzielić bazę zarówno użytkowników jak i filmów na odrębne grupy używając jednej z metod grupowania danych (np. DB-scan). Elementy które nie wpadają jawnie do głównych grup chcemy traktować szczególnie.
+3) Collaborative filtering.
+4) Content-based model.
+5) Łączenie danych w model hybrydowy dla sporządzenia listy rekomendacji.
+6) Dla walidacji będziemy korzystać z Cross-validation. W celu veryfikacji poprawności działania naszego systemu rekomendującego tworzymy kilka(-dziesiąt) nowych użytkowników o różnych profilach i różnej aktywności i patrzymy na ile sensowne są nasze rekomendacje.
+
+
